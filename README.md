@@ -4,4 +4,4 @@ There are two files
 
 IsentropicEuler2DContactDiscontinuity.m -- This file includes the code to do a numerical search for fan subsolution corresponding to a contact discontinuity. Also included in the code are the exact symbolic values used in our paper, as well the code to symbolically verify that these symbolic values verify all required conditions.
 
- -- This file contains the code to do a trial of numerical searches for subsolution fans corresponding to 100 randomly chosen sets of Riemann initial data.
+IsentropicEuler2DRandomRiemannData.m -- This file contains the code to do a trial of numerical searches for subsolution fans corresponding to 100 randomly chosen sets of Riemann initial data.
