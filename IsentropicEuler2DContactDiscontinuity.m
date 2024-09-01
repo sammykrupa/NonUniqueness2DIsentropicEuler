@@ -1,6 +1,6 @@
 % This code searches for solutions to the algebraic equations making up the
 % condition of being a collection of subsolution fans (pizza slices).
-% This code is associated with the paper "Vortex sheets for 2-D isentropic Euler are unstable, unless restricted to 1-D"
+% This code is associated with the paper "Contact discontinuities for 2-D isentropic Euler are unique in 1-D but wildly non-unique otherwise"
 % by Sam G. Krupa and László Székelyhidi Jr.
 % To use the constants which are given in the appendix of the paper, uncomment
 % lines 265-302 (inclusive) of this code. 
@@ -13,7 +13,7 @@ N=3; %N>1
 epsilon_fixed=1;
 
 
-%Step 1: Setup the numerical solver to find a collection of subsolution fans, and run the solver
+%Setup the numerical solver to find a collection of subsolution fans, and run the solver
 
 exitflag=0;
 
