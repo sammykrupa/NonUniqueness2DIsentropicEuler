@@ -1,9 +1,10 @@
 % This code searches for solutions to the algebraic equations making up the
-% condition of being a collection of subsolution fans (pizza slices).
+% condition of being a subsolution fan, with contact discontinuity initial data.
+% The code also symbolically verifies the solution.
 % This code is associated with the paper "Contact discontinuities for 2-D isentropic Euler are unique in 1-D but wildly non-unique otherwise"
 % by Sam G. Krupa and László Székelyhidi Jr.
 % To use the constants which are given in the appendix of the paper, uncomment
-% lines 265-302 (inclusive) of this code. 
+% lines 266-303 (inclusive) of this code. 
 
 
 %number of subsolution fans (pizza slices)
