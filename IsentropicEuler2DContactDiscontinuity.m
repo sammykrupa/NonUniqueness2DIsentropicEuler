@@ -305,7 +305,7 @@ end
 
 %calculate D\Gamma at the point (\hat\alpha_N,\hat\beta_N,\hat\delta_N,\hat\rho_N,\hat\nu_+,\hat\nu_{N-1})
 
-pprime = 2*rho(N+1)*energyprime(N+1); %p'(\rho_{N})
+pprime = 2*rho(N+1)*energyprime(N+1); %p'(\rho_{N}) if the second derivative of energy vanishes
 DGamma=sym(zeros(6,6));
 DGamma=[0 -rho(N+1) 0 -beta(N)+nu(N-1) 0 -(rho(N)-rho(N+1));rho(N+1)*nu(N-1) 0 -rho(N+1) -delta(N)+alpha(N)*nu(N-1) 0 -(rho(N)*alpha(N-1)-rho(N+1)*alpha(N));0 nu(N-1)*rho(N+1) 0 gamma(N)-pprime-.5*C(N)+beta(N)*nu(N-1) 0 -(rho(N)*beta(N-1)-rho(N+1)*beta(N));0 rho(N+1) 0 beta(N)-nuplus -(rho(N+1)-rho(N+2)) 0;-nuplus*rho(N+1) 0 rho(N+1) delta(N)-nuplus*alpha(N) -(rho(N+1)*alpha(N)-rho(N+2)*vplusone) 0;0 -nuplus*rho(N+1) 0 -gamma(N)+pprime+.5*C(N)-nuplus*beta(N) -(rho(N+1)*beta(N)-rho(N+2)*vplustwo) 0];
 
