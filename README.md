@@ -15,57 +15,29 @@ IsentropicEuler2DRandomRiemannData.m -- This file contains the code to do a tria
 [![DOI](https://zenodo.org/badge/850661900.svg)](https://doi.org/10.5281/zenodo.19187036)
 
  
-If you use this code in an academic paper, please also cite the related publications:
+If you use the code, please also cite the associated paper:
  
 ```bibtex
-@article{maierhofer2022symplectic,
-     title={Bridging the gap: symplecticity and low regularity in {R}unge--{K}utta resonance-based schemes},
-     author={Georg Maierhofer and Katharina Schratz},
-     journal={Mathematics of Computation},
-     year={2025}
-  }
- 
-@article{alamabronsard2023symmetric,
-     title={Symmetric resonance based integrators and forest formulae},
-     author={Yvonne Alama Bronsard and Yvain Bruned and Georg Maierhofer and Katharina Schratz},
-     journal={Foundations of Computational Mathematics},
-     year={2026}
-  }
- 
-@article{banica2024schroedingermaps,
-     title={Numerical integration of {S}chr\"odinger maps via the {H}asimoto transform},
-     author={Valeria Banica and Georg Maierhofer and Katharina Schratz},
-     journal={SIAM Journal on Numerical Analysis},
-     volume={62},
-     number={1},
-     pages={322--352},
-     year={2024},
-     publisher={SIAM}
-  }
- 
-@article{feng2024longtime,
-     title={Long-time error bounds of low-regularity integrators for nonlinear {S}chr\"odinger equations},
-     author={Yue Feng and Georg Maierhofer and Katharina Schratz},
-     journal={Mathematics of Computation},
-     volume={93},
-     number={348},
-     pages={1569--1598},
-     year={2024}
-  }
- 
-@misc{cui2025wongzakai,
-     title={A {W}ong--{Z}akai resonance-based integrator for the nonlinear {S}chr\"odinger equation with white noise dispersion},
-     author={Jianbo Cui and Georg Maierhofer},
-     year={2025},
-     eprint={2503.19346},
-     archivePrefix={arXiv},
-     primaryClass={math.NA}
-  }
+@article {MR4890945,
+    AUTHOR = {Krupa, Sam G. and Sz\'ekelyhidi, Jr., L\'aszl\'o},
+     TITLE = {Contact discontinuities for 2-{D} isentropic {E}uler are
+              unique in 1-{D} but wildly non-unique otherwise},
+   JOURNAL = {Comm. Math. Phys.},
+  FJOURNAL = {Communications in Mathematical Physics},
+    VOLUME = {406},
+      YEAR = {2025},
+    NUMBER = {5},
+     PAGES = {Paper No. 109, 24},
+      ISSN = {0010-3616,1432-0916},
+   MRCLASS = {35Q31 (35D30 76N10)},
+  MRNUMBER = {4890945},
+MRREVIEWER = {Mikhail\ M.\ Shvartsman},
+       DOI = {10.1007/s00220-025-05278-6},
+       URL = {https://doi.org/10.1007/s00220-025-05278-6},
+}
 ```
  
-1. Maierhofer, G. and Schratz, K., “Bridging the gap: symplecticity and low regularity in Runge-Kutta resonance-based schemes”, Math. Comp., 2025.
-2. Alama Bronsard, Y., Bruned, Y., Maierhofer, G. and Schratz, K., “Symmetric resonance based integrators and forest formulae”, Found. Comp. Math., 2026.
-3. Banica, V., Maierhofer, G. and Schratz, K., “Numerical integration of Schrödinger maps via the Hasimoto transform”, SIAM J. Numer. Anal. 62(1), pp.322-352, 2024.
-4. Feng, Y., Maierhofer, G. and Schratz, K., “Long-time error bounds of low-regularity integrators for nonlinear Schrödinger equations”, Math. Comp. 93(348), pp.1569-1598, 2024.
-5. Cui, J. and Maierhofer, G., “A Wong--Zakai resonance-based integrator for the nonlinear Schrödinger equation with white noise dispersion”, 2025. arXiv:2503.19346.
+ S. G. Krupa and L. Székelyhidi, Jr. 
+Contact discontinuities for 2-D isentropic Euler are unique in 1-D but wildly non-unique otherwise. 
+Comm. Math. Phys., 406(5):Paper No. 109, 24, 2025.
  
