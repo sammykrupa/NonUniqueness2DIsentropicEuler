@@ -31,7 +31,6 @@ If you use the code, please also cite the associated paper:
       ISSN = {0010-3616,1432-0916},
    MRCLASS = {35Q31 (35D30 76N10)},
   MRNUMBER = {4890945},
-MRREVIEWER = {Mikhail\ M.\ Shvartsman},
        DOI = {10.1007/s00220-025-05278-6},
        URL = {https://doi.org/10.1007/s00220-025-05278-6},
 }
